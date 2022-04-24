@@ -8,7 +8,7 @@ function HeroRight() {
     <>
       <div className="w-1/2 sm:w-2/5 h-64 md:h-auto m-auto flex items-center overflow-hidden">
         {/* <img class="h-full" src="https://cdn.tuk.dev/assets/components/111220/Hero4/Rectangle.png" alt="Device"> */}
-        <Lottie animationData={heroSection} />
+        <Lottie loop={true} animationData={heroSection} />
         {/* <img
           className="md:absolute md:w-1/2 md:-ml-28"
           src="https://cdn.tuk.dev/assets/components/111220/Hero4/Device - Macbook Pro.png"
