@@ -5,13 +5,13 @@ function HeroLeft() {
   return (
     <>
       <div className="md:w-3/5 xs:w-full xs:py-0  pb-10 lg:py-14 xl:py-14">
-        <h1 className="sm:text-6xl md:text-6xl lg:text-6xl xl:text-8xl font-black text-white text-center md:text-left tracking-tighter f-f-i md:w-7/12 leading-tight text-heading-color">
+        <h1 className="xs:text-6xl md:text-6xl lg:text-6xl xl:text-8xl font-black text-white text-center md:text-left tracking-tighter f-f-i md:w-7/12 leading-tight text-heading-color">
           Rayan{" "}
           <span className="text-dark">
             Ab<span className="text-white">i</span>d
           </span>
         </h1>
-        <h2 className="md:w-8/12 py-4 text-center md:text-left md:py-8 text-dark text-lg lg:text-2xl">
+        <h2 className="md:w-8/12 py-4 text-center md:text-left md:py-8 text-white text-lg lg:text-2xl">
           Experienced Frontend Web Developer and Applications Developer with a
           demonstrated history of working in the Development industry. Skilled
           in React Js, React Native, Firebase, Node Js.

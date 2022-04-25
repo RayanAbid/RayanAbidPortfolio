@@ -4,7 +4,7 @@
 
 .custom-shape-divider-bottom-1650830520 {
   position: absolute;
-  bottom: -10px;
+  bottom: -2px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -20,5 +20,5 @@
 }
 
 .custom-shape-divider-bottom-1650830520 .shape-fill {
-  fill: #ffff;
+  fill: #eeeeee;
 }
