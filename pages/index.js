@@ -6,6 +6,12 @@ import HeroSection from "../components/HeroSection";
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>My page title</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="google-site-verification" content="NlCmj9T2EobwjHW2Gdvn8HCmRssQsPMjRNxKPX30G5I" />
+      </Head>
+
       <HeroSection />
       <div className="mb-20 custom-shape-divider-bottom-1650830520">
         <svg
