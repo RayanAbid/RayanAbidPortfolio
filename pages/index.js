@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <HeroSection />
-      <div className="mb-20 custom-shape-divider-bottom-1650830520">
+      <div className=" custom-shape-divider-bottom-1650830520">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
