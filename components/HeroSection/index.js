@@ -6,7 +6,7 @@ function IndexPage() {
 
   return (
     <>
-      <div className="mx-auto container relative z-0  bg-main xl:px-14">
+      <div className="  relative z-0  xs:py-6 bg-main xs:px-7 xl:px-14">
         <div className="flex flex-col-reverse md:flex-row">
           <HeroLeft />
           <HeroRight />

@@ -7,14 +7,23 @@ export default function Home() {
   return (
     <div>
       <Head>
-    
         <title>Rayan Abid</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="google-site-verification" content="NlCmj9T2EobwjHW2Gdvn8HCmRssQsPMjRNxKPX30G5I" />
+        <meta
+          name="google-site-verification"
+          content="NlCmj9T2EobwjHW2Gdvn8HCmRssQsPMjRNxKPX30G5I"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
       </Head>
 
       <HeroSection />
-      <div className=" custom-shape-divider-bottom-1650830520">
+      <div className="xs:invisible md:visible custom-shape-divider-bottom-1650830520">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
