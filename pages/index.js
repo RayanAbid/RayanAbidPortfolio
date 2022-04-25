@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>My page title</title>
+        <title>Rayan Abid</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="google-site-verification" content="NlCmj9T2EobwjHW2Gdvn8HCmRssQsPMjRNxKPX30G5I" />
       </Head>
