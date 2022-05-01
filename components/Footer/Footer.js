@@ -14,8 +14,10 @@ export default function Footer() {
       lg:justify-center gap-2 md:gap-0 py-6"
       >
         <p className="text-sm leading-none text-white">
-          Rayan Abid - Software Developer - {year}
+          Rayan Abid - Software Developer - {year} -{" "}
+          <a href="mailto:rayanabid12345@gmail.com">Email me</a>
         </p>
+        <br />
       </div>
     </div>
   );
