@@ -9,10 +9,22 @@ export default function Home() {
     <div>
       <Head>
         <title>Rayan Abid</title>
+        <meta
+          name="description"
+          content="Hi! I'm Rayan Abid. I'm a software developer. I have ample expirience in texhnologies such as React js, React Native, Node js, Solidity, and many more."
+        />
+        <meta
+          name="keywords"
+          content="Reactjs, React Js, React, Node js, React native, Solidity, Software engineer, Software developer, Nordstone, Flux (pvt), linkedin, rayanabid, rayan abid, github rayanabid"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="google-site-verification"
           content="NlCmj9T2EobwjHW2Gdvn8HCmRssQsPMjRNxKPX30G5I"
+        />
+        <link
+          rel="icon"
+          href="https://rayanabid.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651419054991%2FouOwX2HBa.png%3Fw%3D1000%26h%3D250%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1080&q=75"
         />
         <link
           rel="stylesheet"
