@@ -3,6 +3,11 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import HeroSection from "../components/HeroSection";
 import AboutPage from "../components/About";
+import MyProjects from "../components/MyProjects/MyProjects";
+import FavouriteTech from "../components/FavoueriteTech/FavouriteTech";
+
+// SVG
+import WaveFavTech from "../assets/svg/WaveFavTech.svg";
 
 export default function Home() {
   return (
@@ -37,6 +42,10 @@ export default function Home() {
 
       <HeroSection />
       <AboutPage />
+
+      <MyProjects />
+
+      <FavouriteTech />
     </div>
   );
 }

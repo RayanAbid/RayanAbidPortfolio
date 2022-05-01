@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-function AboutPage() {
-  const [show, setShow] = useState(false);
 
+function AboutPage() {
   return (
     <>
-      <div className="  relative border-top-color:bg-white xs:py-6 bg-white xs:px-7 xl:px-14">
-        <div className="flex flex-col-reverse md:flex-row">
+      <div className="  relative border-top-color:bg-white xs:py-6   bg-white xs:px-7 xl:px-14">
+        <div className="flex flex-col md:flex-row">
           <h1 className="xs:py-10 md:py-20 xs:text-6xl md:text-6xl lg:text-6xl xl:text-8xl font-black text-main text-center md:text-left tracking-tighter f-f-i md:w-7/12 leading-tight text-heading-color">
             About{" "}
             <span className="text-dark">

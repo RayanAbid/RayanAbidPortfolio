@@ -22,3 +22,30 @@
 .custom-shape-divider-bottom-1650830520 .shape-fill {
   fill: #eeeeee;
 }
+
+/* fav tech curve */
+.custom-shape-divider-top-1651431391 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1651431391 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 147px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1651431391 .shape-fill {
+  fill: #eeeeee;
+}
+
+/* bgImageAbout */
+.bgImageAbout {
+  background-image: "../assets/Images/About/bgAbout.png";
+}
