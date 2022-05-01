@@ -21,6 +21,13 @@ export default function Home() {
         />
         <meta property="og:url" content="https://www.rayanabid.com/" />
         <meta property="og:type" content="website" />
+        <meta property="fb:app_id" content="your fb app id" />
+        <meta property="og:title" content="Social Media Preview Working?" />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          property="og:description"
+          content="Hurray!! Yes Social Media Preview is Working"
+        />
         <meta
           property="og:image"
           content={
