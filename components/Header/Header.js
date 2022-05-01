@@ -1,4 +1,5 @@
 import React from "react";
+import { socialLinks } from "../../assets/utils/constants";
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -29,56 +30,20 @@ export default function Navbar({ fixed }) {
             id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  target="_blank"
-                  href="https://github.com/rayanabid"
-                >
-                  <i className="fab fa-github-square text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Github</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  target="_blank"
-                  href="https://twitter.com/rayanDoesTech/"
-                >
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Tweet</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/rayanabid/"
-                >
-                  <i className="fab fa-linkedin text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Linkedin</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  target="_blank"
-                  href="https://www.youtube.com/channel/UCbUlt1T9VdaD-9ewO0D5B8w"
-                >
-                  <i className="fab fa-youtube text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Youtube</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  target="_blank"
-                  href="https://rayanabid.hashnode.dev/"
-                >
-                  <i className="fab fa-hashnode text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Blogs</span>
-                </a>
-              </li>
+              {socialLinks.map((item) => (
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                    target="_blank"
+                    href={item.link}
+                  >
+                    <i
+                      className={`${item.icon} text-lg leading-lg text-white opacity-75`}
+                    ></i>
+                    <span className="ml-2">{item.name}</span>
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

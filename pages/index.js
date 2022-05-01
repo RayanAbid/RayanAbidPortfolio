@@ -8,6 +8,7 @@ import FavouriteTech from "../components/FavoueriteTech/FavouriteTech";
 
 // SVG
 import WaveFavTech from "../assets/svg/WaveFavTech.svg";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
       <MyProjects />
 
       <FavouriteTech />
+      <Footer />
     </div>
   );
 }
