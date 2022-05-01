@@ -19,6 +19,14 @@ export default function Home() {
           name="description"
           content="Hi! I'm Rayan Abid. I'm a software developer. I have ample expirience in texhnologies such as React js, React Native, Node js, Solidity, and many more."
         />
+        <meta property="og:url" content="https://www.rayanabid.com/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content={
+            "https://upload.wikimedia.org/wikipedia/en/6/6d/All_Elite_Wrestling.jpg"
+          }
+        />
         <meta
           name="keywords"
           content="Reactjs, React Js, React, Node js, React native, Solidity, Software engineer, Software developer, Nordstone, Flux (pvt), linkedin, rayanabid, rayan abid, github rayanabid, rayan abid software engineer, rayan abid software developer, rayan abid react"
