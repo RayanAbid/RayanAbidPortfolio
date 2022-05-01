@@ -15,7 +15,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Reactjs, React Js, React, Node js, React native, Solidity, Software engineer, Software developer, Nordstone, Flux (pvt), linkedin, rayanabid, rayan abid, github rayanabid"
+          content="Reactjs, React Js, React, Node js, React native, Solidity, Software engineer, Software developer, Nordstone, Flux (pvt), linkedin, rayanabid, rayan abid, github rayanabid, rayan abid software engineer, rayan abid software developer, rayan abid react"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
