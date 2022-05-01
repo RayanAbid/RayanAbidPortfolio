@@ -22,16 +22,16 @@ export default function Home() {
         <meta property="og:url" content="https://www.rayanabid.com/" />
         <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="your fb app id" />
-        <meta property="og:title" content="Social Media Preview Working?" />
+        <meta property="og:title" content="Rayan Abid - Software debeloper" />
         <meta name="twitter:card" content="summary" />
         <meta
           property="og:description"
-          content="Hurray!! Yes Social Media Preview is Working"
+          content="I'm a software developer from Lahore, Pakistan. I have 2 years expirience. I've worked for multiple clients and companies and have helped them building awesome solutions to there problems."
         />
         <meta
           property="og:image"
           content={
-            "https://upload.wikimedia.org/wikipedia/en/6/6d/All_Elite_Wrestling.jpg"
+            "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651419688150%2FTfY9g7ygS.jpg%3Fw%3D400%26h%3D400%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=640&q=75"
           }
         />
         <meta
