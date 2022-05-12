@@ -12,9 +12,7 @@ function HeroLeft() {
           </span>
         </h1>
         <h2 className="md:w-8/12 py-4 text-center md:text-left md:py-8 text-white text-lg lg:text-2xl">
-          Experienced Frontend Web Developer and Applications Developer with a
-          demonstrated history of working in the Development industry. Skilled
-          in React Js, React Native, Firebase, Node Js.
+          I believe in the power of software. I live and breathe it. I love solving problems with code.
         </h2>
         {/* <div className="w-full flex justify-center md:block">
           <button className="hover:opacity-90 bg-white py-3 px-10 lg:py-7 lg:px-20 rounded-full text-main text-sm md:text-lg f-f-p">
