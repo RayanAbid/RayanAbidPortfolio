@@ -15,7 +15,7 @@ function AboutPage() {
           </h1>
           <h2 className="md:w-8/12 py-4 text-center md:text-left md:py-8 text-dark text-lg lg:text-2xl">
             I am a software developer from Lahore, Pakistan. I have 2 years expirience. I've worked for multiple clients and companies and enjoy what I do!
-            <br /> <br /> I code in Javascript, Blockchain, SQL and much more. I'm passionate about technology, diversity and inclusion..
+            <br /> <br /> I code in Javascript, Blockchain, SQL and much more. I'm passionate about technology, diversity and inclusion.
           </h2>
         </div>
       </div>
