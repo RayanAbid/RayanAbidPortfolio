@@ -2,6 +2,8 @@ import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 
 import WrestlingGifImage from "../../assets/Images/projectsImages/wrestlinggif.png";
+import PitchProfile from "../../assets/Images/projectsImages/pitchprofile.png";
+import HurryApp from "../../assets/Images/projectsImages/HurryApp.png";
 
 const Carousel = () => {
   const data = [
@@ -13,6 +15,24 @@ const Carousel = () => {
       projectType: "Web 3 - Solidity",
       tools: "React js, Solidity",
       desc: "A project build with buildspace. This project uses blockchain to get users stored gifs and display them.",
+    },
+    {
+      title: "Job Board",
+      // link: "https://replit.com/@RayanAbid2/gif-portal-starter-project",
+      // gitLink: "https://replit.com/@RayanAbid2/gif-portal-starter-project",
+      imageUrl: PitchProfile,
+      projectType: "Web app",
+      tools: "React js, Node js, Sequilize",
+      desc: "A job management app where companies and candiates can onboard to find jobs around the world.",
+    },
+    {
+      title: "Hurry",
+      link: "https://hurry.vercel.app/",
+      // gitLink: "https://replit.com/@RayanAbid2/gif-portal-starter-project",
+      imageUrl: HurryApp,
+      projectType: "Web app",
+      tools: "React js, Node js, Sequilize",
+      desc: "A web app where candiadtes can register to have an interview with the company.",
     },
   ];
 
@@ -116,7 +136,7 @@ const Carousel = () => {
             return (
               <div
                 key={index}
-                className="carousel-item text-center  w-full snap-start"
+                className="carousel-item text-center sm:w-full w-full snap-start"
               >
                 <div className="max-w-sm  rounded-lg border  shadow-md bg-main border-main">
                   <Image
@@ -131,27 +151,48 @@ const Carousel = () => {
                       </h5>
                     </a>
                     <p className="mb-3 font-normal text-white">
-                      {resource.desc}
+                      {resource.desc.substring(0, 50)}...
                     </p>
                     <p className="mb-3 font-normal  text-white">
                       {resource.tools}
                     </p>
-                    <a
-                      target="_blank"
-                      href={resource.link}
-                      className="mr-5 inline-flex items-center py-2 px-3 text-sm font-medium text-center text-main bg-white rounded-lg  focus:ring-4 focus:outline-none "
-                    >
-                      Demo
-                    </a>
+                    {resource.link ? (
+                      <a
+                        target="_blank"
+                        href={resource.link}
+                        className="mr-5 inline-flex items-center py-2 px-3 text-sm font-medium text-center text-main bg-white rounded-lg  focus:ring-4 focus:outline-none "
+                      >
+                        Demo
+                      </a>
+                    ) : (
+                      <a
+                        style={{ opacity: 0 }}
+                        // target="_blank"
+                        // href={resource.link}
+                        className="mr-5 inline-flex items-center py-2 px-3 text-sm font-medium text-center text-main  rounded-lg  focus:ring-4 focus:outline-none "
+                      ></a>
+                    )}
 
-                    <a
-                      href={resource.gitLink}
-                      target="_blank"
-                      className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-main bg-white border-main rounded-lg  focus:ring-4 focus:outline-none "
-                    >
-                      <i className="mr-1 fab fa-github-square  text-main opacity-75"></i>
-                      Github
-                    </a>
+                    {resource.gitLink ? (
+                      <a
+                        href={resource.gitLink}
+                        target="_blank"
+                        className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-main bg-white border-main rounded-lg  focus:ring-4 focus:outline-none "
+                      >
+                        <i className="mr-1 fab fa-github-square  text-main opacity-75"></i>
+                        Github
+                      </a>
+                    ) : (
+                      <a
+                        style={{ opacity: 0 }}
+                        // href={resource.gitLink}
+                        // target="_blank"
+                        className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-main bg-white border-main rounded-lg  focus:ring-4 focus:outline-none "
+                      >
+                        <i className="mr-1 fab fa-github-square  text-main opacity-75"></i>
+                        Github
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
