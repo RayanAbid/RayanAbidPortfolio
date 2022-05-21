@@ -4,6 +4,8 @@ import { useState, useRef, useEffect } from "react";
 import WrestlingGifImage from "../../assets/Images/projectsImages/wrestlinggif.png";
 import PitchProfile from "../../assets/Images/projectsImages/pitchprofile.png";
 import HurryApp from "../../assets/Images/projectsImages/HurryApp.png";
+import NFTRunners from "../../assets/Images/projectsImages/NFTRunners.png";
+
 
 const Carousel = () => {
   const data = [
@@ -20,7 +22,7 @@ const Carousel = () => {
       title: "NFT Runners",
       link: "https://ymesfaa4ek27sv7n1dzzha-on.drv.tw/NFTRunners/",
       gitLink: "https://github.com/RayanAbid/NFTRunners",
-      imageUrl: "https://raw.githubusercontent.com/RayanAbid/NFTRunners/main/gitReadme/pic1.png",
+      imageUrl: NFTRunners,
       projectType: "Web 3 - Game",
       tools: "React js, Solidity, Moralis, NFT",
       desc: "A dino run game but with a twist. The twist is that it's a NFT game XD.",
