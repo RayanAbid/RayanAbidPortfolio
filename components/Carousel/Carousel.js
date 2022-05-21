@@ -17,6 +17,16 @@ const Carousel = () => {
       desc: "A project build with buildspace. This project uses blockchain to get users stored gifs and display them.",
     },
     {
+      title: "NFT Runners",
+      link: "https://ymesfaa4ek27sv7n1dzzha-on.drv.tw/NFTRunners/",
+      gitLink: "https://github.com/RayanAbid/NFTRunners",
+      imageUrl: "https://raw.githubusercontent.com/RayanAbid/NFTRunners/main/gitReadme/pic1.png",
+      projectType: "Web 3 - Game",
+      tools: "React js, Solidity, Moralis, NFT",
+      desc: "A dino run game but with a twist. The twist is that it's a NFT game XD.",
+    },
+    https://raw.githubusercontent.com/RayanAbid/NFTRunners/main/gitReadme/pic1.png
+    {
       title: "Job Board",
       // link: "https://replit.com/@RayanAbid2/gif-portal-starter-project",
       // gitLink: "https://replit.com/@RayanAbid2/gif-portal-starter-project",
