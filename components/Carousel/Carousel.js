@@ -25,7 +25,6 @@ const Carousel = () => {
       tools: "React js, Solidity, Moralis, NFT",
       desc: "A dino run game but with a twist. The twist is that it's a NFT game XD.",
     },
-    https://raw.githubusercontent.com/RayanAbid/NFTRunners/main/gitReadme/pic1.png
     {
       title: "Job Board",
       // link: "https://replit.com/@RayanAbid2/gif-portal-starter-project",
