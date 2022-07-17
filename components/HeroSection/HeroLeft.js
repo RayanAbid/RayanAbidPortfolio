@@ -15,11 +15,16 @@ function HeroLeft() {
 				</h1>
 				<h2 className="md:w-8/12 py-4 text-center md:text-left md:py-8 text-white text-lg lg:text-2xl">
 					<Typewriter
-						onInit={(typewriter) => {
-							typewriter
-								.typeString(`I believe in the power of software.`)
-								.start();
-						}}
+// 						onInit={(typewriter) => {
+// 							typewriter
+// 								.typeString(`I believe in the power of software.`)
+// 								.start();
+// 						}}
+options={{
+					strings: ["I believe in the power of software.", "I live and breathe it.", "I love solving problems with code."],
+					loop: true,
+					autoStart: true,
+				}}
 					/>
 				</h2>
 				{/* <div className="w-full flex justify-center md:block">
