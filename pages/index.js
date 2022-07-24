@@ -9,8 +9,13 @@ import FavouriteTech from "../components/FavoueriteTech/FavouriteTech";
 // SVG
 import WaveFavTech from "../assets/svg/WaveFavTech.svg";
 import Footer from "../components/Footer/Footer";
+import MyVideos from "../components/MyVideos/MyVideos";
 
 export default function Home() {
+  const ytApiKey = "AIzaSyCMn2_4ex4vzeoCDDtOfK82-xUqbUT0bDs";
+
+  // console.log("result is ", ytApiKey);
+
   return (
     <div>
       <Head>
@@ -58,6 +63,8 @@ export default function Home() {
 
       <HeroSection />
       <AboutPage />
+
+      <MyVideos />
 
       <MyProjects />
 

@@ -31,6 +31,8 @@ module.exports = {
         main: "#8B9A46",
         secondry: "#541212",
         bgPrimary: "##FFFFFFD9",
+        ytred: "#FF0000",
+        gitBlack: "#171515",
         dark: "#0f0e0e",
         disableClr: "#c4c4c4",
         bgSecondry: "#F0F0F0",
