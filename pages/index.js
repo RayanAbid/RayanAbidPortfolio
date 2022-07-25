@@ -64,9 +64,15 @@ export default function Home() {
       <HeroSection />
       <AboutPage />
 
-      <MyVideos />
+      <div className="flex w-full lg:flex-row xs:flex-col ">
+        <MyVideos />
 
-      <MyProjects />
+        <MyProjects />
+      </div>
+
+      {/* <MyVideos />
+
+      <MyProjects /> */}
 
       <FavouriteTech />
       <Footer />
