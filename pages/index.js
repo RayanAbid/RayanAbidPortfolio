@@ -31,7 +31,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary" />
         <meta
           property="og:description"
-          content="I'm a software developer from Lahore, Pakistan. I have 2 years expirience. I've worked for multiple clients and companies and have helped them building awesome solutions to there problems."
+          content="I'm a software developer from Lahore, Pakistan. I have 2 years experience. I've worked for multiple clients and companies and have helped them building awesome solutions to there problems."
         />
         <meta
           property="og:image"
@@ -62,19 +62,18 @@ export default function Home() {
       </Head>
 
       <HeroSection />
-      <AboutPage />
+      {/* <AboutPage /> */}
 
-      <div className="flex w-full lg:flex-row xs:flex-col ">
-        <MyVideos />
+      <MyVideos />
 
-        <MyProjects />
-      </div>
+      <FavouriteTech />
+
+      <MyProjects />
 
       {/* <MyVideos />
 
       <MyProjects /> */}
 
-      <FavouriteTech />
       <Footer />
     </div>
   );

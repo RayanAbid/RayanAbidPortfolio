@@ -13,7 +13,7 @@ function MyVideos() {
     };
 
     await fetch(
-      "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCbUlt1T9VdaD-9ewO0D5B8w&maxResults=3&order=date&key=AIzaSyCMn2_4ex4vzeoCDDtOfK82-xUqbUT0bDs",
+      "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCbUlt1T9VdaD-9ewO0D5B8w&maxResults=5&order=date&key=AIzaSyCMn2_4ex4vzeoCDDtOfK82-xUqbUT0bDs",
       requestOptions
     )
       .then((response) => response.json())

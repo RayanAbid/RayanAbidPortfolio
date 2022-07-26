@@ -6,7 +6,7 @@ function FavouriteTechTable() {
 
   return (
     <>
-      <div className="overflow-x-auto relative border-top-color:bg-white  xs:py-6">
+      <div className="mb-28 overflow-x-auto relative border-top-color:bg-white  xs:py-6">
         <table align="center" className="border-2 p-1 ">
           <tr className="border-2 p-1 ">
             {row1.map((item) => (
