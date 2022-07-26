@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-shape-divider-top-1658839044 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1658839044 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 63px;
+}
+
+.custom-shape-divider-top-1658839044 .shape-fill {
+  fill: #eeeeee;
+}
+
 .custom-shape-divider-bottom-1658830861 {
   position: absolute;
   bottom: 0;

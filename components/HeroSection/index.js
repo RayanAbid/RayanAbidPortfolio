@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import HeroLeft from "./HeroLeft";
 import HeroRight from "./HeroRight";
+import scrollDown from "../../assets/animations/scrollDown.json";
+import Lottie from "lottie-react";
+
 function IndexPage() {
   const [show, setShow] = useState(false);
 
@@ -33,6 +36,19 @@ function IndexPage() {
                 class="shape-fill"
               ></path>
             </svg>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              bottom: 100,
+              right: "48%",
+            }}
+          >
+            <Lottie
+              style={{ width: 70 }}
+              loop={true}
+              animationData={scrollDown}
+            />
           </div>
 
           {/* <div className="xs:invisible md:visible custom-shape-divider-bottom-1650830520">

@@ -38,9 +38,15 @@ export default function Navbar({ fixed }) {
                     href={item.link}
                   >
                     <i
-                      className={`${item.icon} text-lg leading-lg text-white opacity-75`}
+                      className={`${item.icon} 
+                      ${item.icon == "fab fa-twitter" && "text-[#1DA1F2]"}
+                      ${item.icon == "fab fa-linkedin" && "text-[#0072B1]"}
+                      ${item.icon == "fab fa-hashnode" && "text-[#2962FF]"}
+                       ${item.iconColor} 
+                      
+                      text-lg leading-lg  `}
                     ></i>
-                    <span className="ml-2">{item.name}</span>
+                    <span className="ml-2 ">{item.name}</span>
                   </a>
                 </li>
               ))}

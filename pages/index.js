@@ -10,6 +10,7 @@ import FavouriteTech from "../components/FavoueriteTech/FavouriteTech";
 import WaveFavTech from "../assets/svg/WaveFavTech.svg";
 import Footer from "../components/Footer/Footer";
 import MyVideos from "../components/MyVideos/MyVideos";
+import MyBlogs from "../components/MyBlogs/MyBlogs";
 
 export default function Home() {
   const ytApiKey = "AIzaSyCMn2_4ex4vzeoCDDtOfK82-xUqbUT0bDs";
@@ -69,6 +70,8 @@ export default function Home() {
       <FavouriteTech />
 
       <MyProjects />
+
+      <MyBlogs />
 
       {/* <MyVideos />
 
